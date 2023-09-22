@@ -1,0 +1,29 @@
+/* Variables and mixins declared here will be available in all other SCSS files */
+
+@import 'bootstrap/scss/functions';
+
+/* Override Bootstrap's variables here */
+
+$primary: #495464;
+$secondary: #BBBFCA;
+$tertiary: #E8E8E8;
+$light: #F4F4F2;
+
+$success: #1DB954;
+$warning: #FFB84C;
+$danger: #DC3545;
+
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+
+/* override theme-color maps */
+
+$custom-colors: (
+    "tertiary": $tertiary
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';

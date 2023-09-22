@@ -1,0 +1,44 @@
+{
+	"name": "splore",
+	"version": "0.0.1",
+	"description": "Sitemap data collector and viewer with search and CSV export.",
+	"homepage": "https://github.com/muhallilahnaf/splore",
+	"license": "MIT",
+	"author": {
+		"name": "Muhallil Ahnaf Tanna",
+		"email": "muhallilahnaf@gmail.com",
+		"url": "https://muhallilahnaf.github.io/"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write ."
+	},
+	"devDependencies": {
+		"@popperjs/core": "^2.11.8",
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-netlify": "^2.0.8",
+		"@sveltejs/kit": "^1.20.4",
+		"bootstrap": "^5.3.0",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte": "^2.30.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.10.1",
+		"sass": "1.64.2",
+		"svelte": "^4.0.5",
+		"svelte-loading-spinners": "^0.3.4",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"@fortawesome/free-brands-svg-icons": "^6.4.2",
+		"@fortawesome/free-solid-svg-icons": "^6.4.2",
+		"gridjs": "^6.0.6",
+		"gridjs-svelte": "^2.1.1",
+		"svelte-fa": "^3.0.4"
+	}
+}
