@@ -2,7 +2,9 @@
 
 ## Sitemap data collector and viewer with search and CSV export
 
-[link]()
+[splore-app.netlify.app](https://splore-app.netlify.app/)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6384556-b176-4c86-8747-1bc6f04b32b9/deploy-status)](https://app.netlify.com/sites/splore-app/deploys)
 
 ---
 
